@@ -346,6 +346,10 @@ p {
   color: #29F630;
 }
 
+.ad-slide img {
+  width: 300px;
+}
+
 /* PANWO */
 
 .panwo-process, .panwo-demo {
