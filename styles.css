@@ -352,10 +352,23 @@ p {
 
 /* PANWO */
 
-.panwo-process, .panwo-demo {
+.video-margin {
   margin-bottom: 3rem;
 }
 
+/* TimeParticles */
+
+.inspiration {
+  width: 800px;
+}
+
+.tp-gif {
+  text-align: center;
+}
+
+.tp-gif img {
+  width: 600px;
+}
 /* ABOUT */
 
 .about-icon {

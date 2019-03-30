@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="Chaoyue Huang, 黄超越, Portfolio, Personal Website, time particles">
+  <meta name="description" content="Chaoyue Huang's personal website - project - timeparticles.">
+  <title>Time Particles</title>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <!-- Font  -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300i,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <!-- P5.js -->
+  <script src="libraries/p5.js" type="text/javascript"></script>
+  <script src="libraries/p5.dom.js" type="text/javascript"></script>
+  <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+  <header id="header">
+    <section class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <h1>Chaoyue</h1>
+        </a>
+        <img src="images/dot.png" class="dot" alt="purple dot">
+      </div>
+      <!-- <div class="menu">
+          <ul>
+            <li class="list-item">
+              <a href="#" class="menu-item"><h3 class="menu-h3 menu-name">Home</h3></a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="menu-item"><h3 class="menu-h3 menu-name">About</h3></a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="menu-item"><h3 class="menu-h3 menu-name">Resume</h3></a>
+            </li>
+          </ul>
+        </div> -->
+      <nav class="menu menu--adsila">
+        <a class="menu__item" href="index.html">
+          <h3 class="menu__item-name menu-h3">Home</h3>
+        </a>
+        <a class="menu__item" href="about.html">
+          <h3 class="menu__item-name menu-h3">About</h3>
+        </a>
+        <a class="menu__item" href="Resume_ChaoyueHuang.pdf" target="_blank">
+          <h3 class="menu__item-name menu-h3">Resume</h3>
+        </a>
+      </nav>
+
+    </section>
+  </header>
+
+  <section id="universe" class="graycolor">
+    <div class="row project project-universe">
+      <div class="col-lg-12">
+        <h2>Time Particles</h2>
+        <P>2019.3 <br>New media art, Interaction design </P>
+        <h2>TOOLS:</h2>
+        <P>Max/Msp/Jitter</P>
+        <h2>Concept:</h2>
+        <P>What is time? For most people, time is an abstract notion. It seems a little strange but it wanders around us from the day human was born because the concept of time is created and defined by human. So how we define it? Well, time has its units, like milliseconds, seconds, minute, hour, etc. People judge the time by counting the unit, but is it the only way of perceiving time? <br><br>
+
+If you are along in a dark, empty room, there is only a clock on the wall. Even you can read the timing is passing, it does not make sense to you except the numbers. People use numbers to judge time and record time rather than perceiving time. Only with development and changes of things people can perceive time, feel it and touch it. <br><br>
+
+Time also has a strong relationship with memory. Every moment we are creating memory, which is one of the crucial component of time: past, present and future. </P>
+        <div class="video-margin">
+        <div class="video video-universe">
+          <iframe src="https://player.vimeo.com/video/327198511" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <div class="external-link">
+          <a href="https://v.youku.com/v_show/id_XNDExNjA4MjcwNA==.html?spm=a2h3j.8428770.3416059.1" target="_blank">国内用户请点击前往优酷观看</a>
+        </div>
+        </div>
+
+        <h2>Ideation process</h2>
+        <p>In my view, memory is a folder of time which consists of multiple time debris.  I want to make this abstract more appreciable by applying a particle system. Each particle will represent a moment, a number of moments will build up a memory. By experiencing the perceptive interaction, we can better understand the abstract notion.</p>
+        <div class="img-margin">
+          <img class="inspiration" src="images/TimeParticles/inspiration.png" alt="">
+        </div>
+
+        <h3>Stage 1</h3>
+        <p>I put a rectangle in the center of the screen as the metaphor for the memory folder to collect the time particles. When the participant’s motion value is bigger than the threshold, the process of generating time particles will be triggered. Each time particle represents a unit of time, I choose two millisecond as a unit in this case. Meanwhile, the webcam starts to record a video and save it into the hard drive.</p>
+        <div class="tp-gif img-margin">
+          <img src="images/TimeParticles/gif1.gif" alt="">
+        </div>
+
+        <h3>Stage 2</h3>
+        <p>When the participant stops moving, the time particles generated just now are released and simulate the processing process, dancing around the rectangle. After a period of time, the time particles will be sucked into the memory folder along with the shrink of the rectangle.</p>
+        <div class="tp-gif img-margin">
+          <img src="images/TimeParticles/gif2.gif" alt="">
+        </div>
+        <div class="tp-gif img-margin">
+          <img src="images/TimeParticles/gif3.gif" alt="">
+        </div>
+
+        <h3>Stage 3</h3>
+        <p>The particles and the video recored at the first stage are combined together to represent the memory. The participant’s motion will be sketched by the time particles. </p>
+        <div class="tp-gif img-margin">
+          <img src="images/TimeParticles/gif4.gif" alt="">
+        </div>
+
+        <h3>Stage 4</h3>
+        <p>After the video is finished at the third stage, all the particles are gone and the system's motion detection function is ready to detect the next motion in order to trigger the first stage.</p>
+        <div class="tp-gif img-margin">
+          <img src="images/TimeParticles/stage4.png" alt="">
+        </div>
+
+        <h2>Feedback:</h2>
+        <p>From the feedback I collected in the class, some participants might feel confused about the first stage and the second stage, they don't know when the video is recorded so they don't know which part needs to be interacted with. Besides, the audio is also misleading, the "creating memory" should be replaced as "processing memory". I think it will be more clear to the participants if there is some interactive response at the first stage and change the audio of the second stage. Last, the duration of the second stage is a little long, compared with the other important stages. <br><br> I will refine it according to the participants' feedback. </p>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer">
+    <span>© Chaoyue Huang 2019 </span>
+  </footer>
+
+</body>
