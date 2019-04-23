@@ -369,6 +369,13 @@ p {
 .tp-gif img {
   width: 600px;
 }
+
+/* Video Manipulation */
+
+.col-right {
+  padding-left: 4rem;
+}
+
 /* ABOUT */
 
 .about-icon {
