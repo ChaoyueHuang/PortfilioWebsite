@@ -152,6 +152,9 @@ p {
 }
 
 /* Main Part */
+.text-centered {
+  text-align: center;
+}
 /* row-1 */
 
 .row-1 {
@@ -333,7 +336,7 @@ p {
 }
 
 .pics-ad img {
-  width: 1000px;
+  width: 800px;
 }
 
 .blue {
