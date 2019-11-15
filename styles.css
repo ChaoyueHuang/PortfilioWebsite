@@ -361,6 +361,16 @@ p {
   margin-bottom: 3rem;
 }
 
+.pics-panwo {
+
+  text-align: center;
+}
+
+.pics-panwo img {
+  width: 1280px;
+
+}
+
 /* TimeParticles */
 
 .inspiration {
