@@ -385,6 +385,11 @@ p {
   width: 600px;
 }
 
+/* mondarian */
+.mondarian img{
+  width: 50%;
+}
+
 /* Video Manipulation */
 
 .col-right {
