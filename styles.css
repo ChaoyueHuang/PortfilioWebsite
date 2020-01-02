@@ -1,12 +1,14 @@
 
 
 body {
-  background-color: #0E0E0E;
+  /* background-color: #0E0E0E; */
+  background-color: #fff;
 }
 
 h1 {
   display: inline-block;
-  color: #fff;
+  /* color: #fff; */
+  color: #0E0E0E;
   font-family: "Roboto", sans-serif;
   font-size: 34px;
   font-weight: 700;
@@ -14,7 +16,8 @@ h1 {
 }
 
 h2 {
-  color: #fff;
+  /* color: #fff; */
+  color: #0E0E0E;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -41,7 +44,8 @@ p {
 }
 
 .italics {
-  color: #cccccc;
+  /* color: #cccccc; */
+  color: #444444;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight:300;
@@ -186,7 +190,8 @@ p {
 }
 
 .row-text h2, span {
-    color: #cccccc;
+    /* color: #cccccc; */
+    color: #0e0e0e;
 }
 
 .clearpadding {
@@ -215,7 +220,8 @@ p {
 }
 
 .footer span {
-  color: #fff;
+  /* color: #fff; */
+  color: #444444;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 100;
@@ -287,7 +293,8 @@ p {
 /* CONTENT */
 
 .graycolor h2, h3, p {
-  color: #cccccc;
+  /* color: #cccccc; */
+  color: #444444;
 }
 
 .graycolor p {
@@ -366,11 +373,11 @@ p {
 
 .pics-panwo {
 
-  text-align: center;
+  /* text-align: center; */
 }
 
 .pics-panwo img {
-  width: 1280px;
+  width: 95%;
 
 }
 
