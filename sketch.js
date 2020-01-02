@@ -50,7 +50,7 @@ function setup() {
 }
 
 function draw() {
-  background(color(bgcolor));
+  background(255,255,255);
 
 
   var force = ball.attract(trianglebig);
