@@ -1,5 +1,5 @@
 
-var bgcolor = '#0E0E0E';
+var bgcolor = '#fff';
 var canvas;
 var ball;
 var purplesquare;
